@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desafío Grid</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+  </head>
+  <body>
+    <!-- tag main contenedor de la página -->
+    <main class="grid-container">
+      <!-- nav superior con h1 -->
+      <nav class="grid-item navbar">
+        <h1>Mi Ecommerce</h1>
+      </nav>
+      <!-- menú lateral con h2 y lista -->
+      <aside class="grid-item aside-bar">
+        <h2>Categorías</h2>
+        <ul class="list">
+          <li class="list-item">Perfumes (13)</li>
+          <li class="list-item">Ropa (21)</li>
+          <li class="list-item">Accesorios (41)</li>
+          <li class="list-item">Zapatos (10)</li>
+        </ul>
+      </aside>
+      <!-- section principal de la página dividida en cards -->
+      <section class="grid-item main">
+        <!-- cards -->
+        <article class="articulo card">
+          <img src="./assets/img/perfume1.jpg" alt="myKingdom" class="imagen" />
+          <h2 class="name">Perfume myKingdom</h2>
+          <p class="precio">31.400</p>
+          <h3 class="comprar">Comprar</h3>
+        </article>
+        <article class="articulo card">
+          <img
+            src="./assets/img/perfume2.jpg"
+            alt="Perfume Phantom"
+            class="imagen"
+          />
+          <h2 class="name">Perfume Phantom</h2>
+          <p class="precio">68.900</p>
+          <h3 class="comprar">Comprar</h3>
+        </article>
+        <article class="articulo card">
+          <img
+            src="./assets/img/zapatos1.jpg"
+            alt="Zapatos Docker"
+            class="imagen"
+          />
+          <h2 class="name">Zapatos Docker</h2>
+          <p class="precio">29.700</p>
+          <h3 class="comprar">Comprar</h3>
+        </article>
+        <article class="articulo card">
+          <img
+            src="./assets/img/poleron.jpg"
+            alt="Poleron puma"
+            class="imagen"
+          />
+          <h2 class="name">Poleron puma</h2>
+          <p class="precio">44.700</p>
+          <h3 class="comprar">Comprar</h3>
+        </article>
+      </section>
+      <!-- footer de la página -->
+      <footer class="grid-item">@miecommerce</footer>
+    </main>
+  </body>
+</html>
